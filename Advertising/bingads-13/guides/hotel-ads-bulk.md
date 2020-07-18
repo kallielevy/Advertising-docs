@@ -18,9 +18,9 @@ The Bulk API supports a limited set of update operations for Hotel Ads customers
 - Update [Hotel Group](#hotel-group) bids
 - Update [Hotel Association](#hotel-association) e.g., add or remove hotel associations. 
 
-You should continue to use the [Hotel Ads API](/advertising/hotel-ads/index) to setup and manage most aspects of your Hotel Ads campaigns. Use the Bulk API as described below if you frequently update thousands or more hotel bids and associations. 
+Use the Bulk API if you frequently update thousands or more hotels, hotel groups, and associations. You would continue to use the [Hotel Ads API](/advertising/hotel-ads/index) to setup and manage most aspects of your Hotel Ads campaigns. 
 
-Hotel Ads customers new to the Bulk API should first review the [Bulk Download and Upload](bulk-download-upload.md) overview. Although Bulk download is not supported for Hotel Ads, you can upload [Hotel](#hotel), [Hotel Group](#hotel-group), and [Hotel Association](#hotel-association) records to make updates. Please note the file format via Bulk API does vary from what is described in [Making bulk changes in Hotel Ads](https://help.ads.microsoft.com/#apex/3/en/56882/1) via the Microsoft Hotel Center UI. 
+Hotel Ads customers new to the Bulk API should first review the [Bulk Upload](bulk-download-upload.md#bulkupload) overview. Although Bulk download is not supported for Hotel Ads, you can upload [Hotel](#hotel), [Hotel Group](#hotel-group), and [Hotel Association](#hotel-association) records to make updates. Please note the file format via Bulk API does vary from what is described in [Making bulk changes in Hotel Ads](https://help.ads.microsoft.com/#apex/3/en/56882/1) via the Microsoft Hotel Center UI. 
 
 Possible column headers include the following CSV row. 
 
