@@ -216,6 +216,20 @@
   - name: Google Ads Import
     href: ./google-ads-import.md
     displayName: google ads import as a service
+  - name: Hotel Ads Bulk Update
+    items:
+    - name: Overview
+      href: ./hotel-ads-bulk.md
+      displayName: hotel ads bulk update bulk upload
+    - name: Hotel
+      href: ./hotel.md
+      displayName: BulkHotel
+    - name: Hotel Association
+      href: ./hotel-association.md
+      displayName: BulkHotelAssociation
+    - name: Hotel Group
+      href: ./hotel-group.md
+      displayName: BulkHotelGroup
 - name: API Reference
   items:
   - name: Overview
