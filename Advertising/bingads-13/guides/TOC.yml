@@ -1049,6 +1049,8 @@
           href: ../campaign-management-service/adduettags.md
         - name: AppealEditorialRejections
           href: ../campaign-management-service/appealeditorialrejections.md
+        - name: ApplyOfflineConversionAdjustments
+          href: ../campaign-management-service/applyofflineconversionadjustments.md
         - name: ApplyOfflineConversions
           href: ../campaign-management-service/applyofflineconversions.md
         - name: ApplyProductPartitionActions
@@ -1478,6 +1480,8 @@
           href: ../campaign-management-service/negativesite.md
         - name: OfflineConversion
           href: ../campaign-management-service/offlineconversion.md
+        - name: OfflineConversionAdjustment
+          href: ../campaign-management-service/offlineconversionadjustment.md
         - name: OfflineConversionGoal
           href: ../campaign-management-service/offlineconversiongoal.md
         - name: OperationError

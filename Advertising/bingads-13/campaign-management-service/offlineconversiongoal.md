@@ -22,13 +22,27 @@ To set up offine conversion tracking, create an [OfflineConversionGoal](offlinec
 <xs:complexType name="OfflineConversionGoal" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:complexContent mixed="false">
     <xs:extension base="tns:ConversionGoal">
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsExternallyAttributed" nillable="true" type="xs:boolean">
+          <xs:annotation>
+            <xs:appinfo>
+              <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
     </xs:extension>
   </xs:complexContent>
 </xs:complexType>
 ```
 
 ## <a name="elements"></a>Elements
+
+The [OfflineConversionGoal](offlineconversiongoal.md) object has the following elements: [IsExternallyAttributed](#isexternallyattributed).
+
+|Element|Description|Data Type|
+|-----------|---------------|-------------|
+|<a name="isexternallyattributed"></a>IsExternallyAttributed|Reserved.|**boolean**|
 
 The [OfflineConversionGoal](offlineconversiongoal.md) object has [Inherited Elements](#inheritedelements).
 

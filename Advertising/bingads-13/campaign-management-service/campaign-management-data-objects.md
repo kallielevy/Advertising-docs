@@ -134,6 +134,7 @@ The Campaign Management service defines the following data objects.
 |[NegativeKeywordList](negativekeywordlist.md)|Defines a negative keyword list.|
 |[NegativeSite](negativesite.md)|Defines a website URL where you do not want your ads displayed.|
 |[OfflineConversion](offlineconversion.md)|Defines an offline conversion that you send to Microsoft Advertising.|
+|[OfflineConversionAdjustment](offlineconversionadjustment.md)|Reserved.|
 |[OfflineConversionGoal](offlineconversiongoal.md)|Defines an offline conversion goal.|
 |[OperationError](operationerror.md)|Defines an error object that contains the details that explain why the service operation failed.|
 |[PagesViewedPerVisitGoal](pagesviewedpervisitgoal.md)|Defines a pages viewed per visit conversion goal.|
