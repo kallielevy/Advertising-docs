@@ -17,7 +17,7 @@ Format Version,6,,,,
 Hotel Association,,HotelIdGoesHere,HotelGroupIdGoesHere,MyHotelGroupClientId,
 ```
 
-For a *Hotel Association* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Hotel Association* record, the following attribute fields are available via [Bulk Upload](bulk-download-upload.md#bulkupload). 
 
 - [Client Id](#clientid)
 - [Id](#id)

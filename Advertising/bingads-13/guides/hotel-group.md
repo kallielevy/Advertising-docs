@@ -17,7 +17,7 @@ Format Version,6,,,,,,,
 Hotel Group,,HotelGroupIdGoesHere,SubAccountIdGoesHere,MyHotelGroupClientId,,13.2,Fixed,1.06
 ```
 
-For a *Hotel Group* record, the following attribute fields are available in the [Bulk File Schema](bulk-file-schema.md). 
+For a *Hotel Group* record, the following attribute fields are available via [Bulk Upload](bulk-download-upload.md#bulkupload). 
 
 - [Advance Booking Window Min Days 1-10](#advancebookingwindowmindays)
 - [Advance Booking Window Multiplier 1-10](#advancebookingwindowmultiplier)
@@ -142,7 +142,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 
 **Update:** Optional. To remove an existing desktop bid modifier, set this field to "delete_value". 
 
-## <a name="devicemobilie"></a>Device Mobile
+## <a name="devicemobile"></a>Device Mobile
 Adjust the base bid if the user is using a smartphone device to search for hotels. 
 
 The valid range for this field is 0.00 through 10.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
