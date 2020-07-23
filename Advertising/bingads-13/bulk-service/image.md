@@ -122,22 +122,21 @@ Possible values are *Active* or *Deleted*.
 **Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="subtype"></a>Sub Type
-The image sub type determines whether the uploaded image can be used with image ad extensions or responsive ads. 
+The image sub type indicates the supported aspect ratio of the uploaded image. 
 
-The recommended sub type is "GenericImage".  
+The recommended sub type is "GenericImage". 
 
 All supported sub type values with corresponding dimension and aspect ratio restrictions are described below. 
 
-|Sub Type|Aspect Ratio|Minimum Dimension|Supported Entities|
+|Sub Type|Aspect Ratio|Minimum Dimension|
 |--------|----------------|---------------------|---------------------|
-|GenericImage|Varies|300 width x 250 height, in pixels|[Image Ad Extension](image-ad-extension.md)<br/><br/>[Responsive Ad](responsive-ad.md)|
-|Image16x9|16:9|640 width x 360 height, in pixels|[Image Ad Extension](image-ad-extension.md)|
-|Image15x10|1.5:1|300 width x 200 height, in pixels|[Image Ad Extension](image-ad-extension.md)|
-|Image4x3|4:3|100 width x 75 height, in pixels|[Image Ad Extension](image-ad-extension.md)|
-|Image12x10|1.2:1|300 width x 250 height, in pixels|[Image Ad Extension](image-ad-extension.md)|
-|Image1x1|1:1|128 width x 128 height, in pixels|[Responsive Ad](responsive-ad.md)|
-|Image191x100|1.91:1|703 width x 368 height, in pixels|[Responsive Ad](responsive-ad.md)|
-|Image4x1|4:1|512 width x 128 height, in pixels|[Responsive Ad](responsive-ad.md)|
+|GenericImage|Varies|300 width x 250 height, in pixels|
+|Image16x9|16:9|640 width x 360 height, in pixels|
+|Image15x10|1.5:1|300 width x 200 height, in pixels|
+|Image4x3|4:3|100 width x 75 height, in pixels|
+|Image1x1|1:1|128 width x 128 height, in pixels|
+|Image191x100|1.91:1|703 width x 368 height, in pixels|
+|Image4x1|4:1|512 width x 128 height, in pixels|
 
 > [!NOTE]
 > The maximum width and height in pixels are 2592 and 2048 independently, and you must still maintain one of the supported aspect ratios. For example, if the sub type is Image191x100 and the width is 2592, then the height must be 1357.

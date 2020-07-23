@@ -605,9 +605,9 @@ If the sub type is not set, the campaign is a standard Microsoft Shopping campai
 
 If the sub type is set to *ShoppingSmartAds*, the campaign is a Microsoft Smart Shopping campaign.  
 
-If the sub type is set to *ShoppingCoOperative*, the campaign is a Microsoft Shopping campaign with [Sponsored Products](https://help.ads.microsoft.com/#apex/3/en/60004/1).  
+If the sub type is set to *ShoppingSponsoredProductAd*, the campaign is a Microsoft [shopping campaigns for brands](../guides/product-ads.md#setup-cooperative).  
 
-**Add:** Optional and not applicable for most campaign types. For Microsoft [smart shopping campaigns](../guides/smart-shopping-campaigns.md) you must set the sub type to *ShoppingSmartAds*. For Microsoft Shopping campaign with [Sponsored Products](https://help.ads.microsoft.com/#apex/3/en/60004/1) you must set the sub type to *ShoppingCoOperative*.  
+**Add:** Optional and not applicable for most campaign types. For Microsoft [smart shopping campaigns](../guides/smart-shopping-campaigns.md) you must set the sub type to *ShoppingSmartAds*. For Microsoft [shopping campaigns for brands](../guides/product-ads.md#setup-cooperative) you must set the sub type to *ShoppingSponsoredProductAd*.  
 **Update:** Read-only  
 **Delete:** Read-only  
 
