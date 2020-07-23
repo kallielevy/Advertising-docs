@@ -852,6 +852,9 @@
         - name: Campaign Negative Site
           href: ../bulk-service/campaign-negative-site.md
           displayName: BulkCampaignNegativeSite
+        - name: Campaign Negative Store Criterion
+          href: ../bulk-service/campaign-negative-store-criterion.md
+          displayName: BulkCampaignNegativeStoreCriterion
         - name: Campaign Price Ad Extension
           href: ../bulk-service/campaign-price-ad-extension.md
           displayName: BulkCampaignPriceAdExtension
@@ -917,6 +920,9 @@
           displayName: BulkFeedItem
         - name: Format Version
           href: ../bulk-service/format-version.md
+        - name: Image
+          href: ../bulk-service/image.md
+          displayName: BulkImage
         - name: Image Ad Extension
           href: ../bulk-service/image-ad-extension.md
           displayName: BulkImageAdExtension

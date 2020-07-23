@@ -482,7 +482,7 @@ The date that the ads in the ad group can begin serving; otherwise, the service 
 
 The start date is inclusive. For example, if you set *Start Date* to 5/5/2019, the ads in the ad group will start at 12:00 AM on 5/5/2019. The time is based on the time zone that you specify at the campaign level.
 
-**Add:** Optional. If you do not set the start date, then it will default to today's date and the service can begin serving the ads in the ad group as soon as the ad group status is active.  
+**Add:** Optional. If you do not set this field or if the date you submit is prior to today's date, then today's date will be set and the service can begin serving the ads in the ad group as soon as the ad group status is active.  
 **Update:** Optional. If no value is set for the update, this setting is not changed. The start date cannot be updated after the ad group is submitted i.e., once the start date has arrived.  
 **Delete:** Read-only  
 

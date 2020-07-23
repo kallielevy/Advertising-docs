@@ -99,7 +99,7 @@ The Campaign Management service defines the following data objects.
 |[GoogleImportJob](googleimportjob.md)|Defines a Google import job that can be run once or scheduled on a recurring basis.|
 |[GoogleImportOption](googleimportoption.md)|Defines the Google import options that are available via API.|
 |[IdCollection](idcollection.md)|Defines an object that contains a list of entity identifiers.|
-|[Image](image.md)|Defines an image object that can be added to an account's media library.|
+|[Image](image.md)|Defines an image that can be added to an account's media library.|
 |[ImageAdExtension](imageadextension.md)|Defines an ad extension that specifies an image with alternative text to include in an expanded text ad.|
 |[ImageAsset](imageasset.md)|Applies crop settings to stored image media for a specific aspect ratio.|
 |[ImageMediaRepresentation](imagemediarepresentation.md)|Defines an image media representation with height and width.|

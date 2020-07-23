@@ -530,8 +530,6 @@ Helps determine which Microsoft Shopping campaign serves ads, in the event that 
 
 A higher priority value denotes a higher priority. The supported values for most shopping campaigns are 0, 1, and 2. For [smart shopping campaigns](../guides/smart-shopping-campaigns.md) (campaign [Sub Type](#subtype) set to *ShoppingSmartAds*), you must set the priority to 3.
 
-If two shopping campaigns use the product catalog feed from same Microsoft Merchant Center store, then ads will be delivered for the [Ad Group Product Partition](ad-group-product-partition.md) with the highest bid.
-
 > [!NOTE]
 > If you create a Microsoft Shopping campaign in the Microsoft Advertising web application, the default priority selected is "Low" which is the equivalent of '0'.
 
