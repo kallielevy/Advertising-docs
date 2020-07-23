@@ -327,7 +327,7 @@ The final URL suffix can include tracking parameters that will be appended to th
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The system generated identifier of the ad group.
+The system-generated identifier of the ad group.
 
 **Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the ad group can then be referenced in the *Parent Id* field of dependent record types such as ads, keywords, or criterion. This is recommended if you are adding new ad groups and new dependent records in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
@@ -440,7 +440,7 @@ If you select one of the syndicated search options, you can call the [SetNegativ
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
-The system generated identifier of the campaign that contains the ad group.
+The system-generated identifier of the campaign that contains the ad group.
 
 This bulk field maps to the *Id* field of the [Camnpaign](campaign.md) record.
 

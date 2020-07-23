@@ -275,7 +275,7 @@ With experiment campaigns you cannot update the [Budget](#budget), [Budget Type]
 **Delete:** Read-only   
 
 ## <a name="budgetid"></a>Budget Id
-The system generated identifier of the [Budget](budget.md) that this campaign shares with other campaigns in the account.
+The system-generated identifier of the [Budget](budget.md) that this campaign shares with other campaigns in the account.
 
 If the field is empty, then the campaign is not using a shared budget. If the field is not empty and the value is greater than zero, then the campaign is using a shared budget. If the campaign is using a shared budget, and you prefer that it use its own budget amount, set this field to '0' (zero) and set the [Budget](#budget) field to a valid budget amount.
 
@@ -390,7 +390,7 @@ Note, if you set the campaign [Language](#language) or ad group [Language](ad-gr
 **Delete:** Read-only  
 
 ## <a name="experimentid"></a>Experiment Id
-The system generated identifier of the [Experiment](experiment.md).
+The system-generated identifier of the [Experiment](experiment.md).
 
 This field is only set for experiment campaigns i.e., campaigns that have been created for A/B testing based on another Search campaign. Base campaigns will not contain an experiment ID. Likewise, after an experiment has been [Graduated](experiment.md#status) to an independent campaign, this field will be empty, even though the campaign was previously an experiment campaign. 
 
@@ -408,7 +408,7 @@ The final URL suffix can include tracking parameters that will be appended to th
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The system generated identifier of the campaign.
+The system-generated identifier of the campaign.
 
 **Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the campaign can then be referenced in the *Parent Id* field of dependent record types such as ad groups or criterion. This is recommended if you are adding new campaigns and new dependent records in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Update:** Read-only and Required  
@@ -517,7 +517,7 @@ The [Source](#source) determines whether or not Microsoft Advertising will use t
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
-The system generated identifier of the account that contains the campaign.
+The system-generated identifier of the account that contains the campaign.
 
 This bulk field maps to the *Id* field of the [Account](account.md) record.
 

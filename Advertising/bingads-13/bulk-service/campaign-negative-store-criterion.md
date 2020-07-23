@@ -95,7 +95,7 @@ Used to associate records in the bulk upload file with records in the results fi
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The system generated identifier of the store criterion.
+The system-generated identifier of the store criterion.
 
 **Add:** Read-only  
 **Update:** Not applicable. A negative store can be added and deleted, but cannot be updated.  
@@ -112,7 +112,7 @@ The date and time that the entity was last updated. The value is in Coordinated 
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
-The system generated identifier of the campaign that contains the store criterion.
+The system-generated identifier of the campaign that contains the store criterion.
 
 This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 
@@ -133,7 +133,7 @@ Possible values are *Active*, *Paused*, or *Deleted*.
 **Delete:** Required. The Status must be set to *Deleted*.
 
 ## <a name="storeid"></a>Store Id
-The system generated identifier of the Microsoft Merchant Center store to exclude. 
+The system-generated identifier of the Microsoft Merchant Center store to exclude. 
 
 **Add:** Required  
 **Update:** Not applicable. A negative store can be added and deleted, but cannot be updated.  

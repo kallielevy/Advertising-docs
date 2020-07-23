@@ -91,7 +91,7 @@ The displayed image dimensions will depend in part on your asset link aspect rat
 **Delete:** Read-only  
 
 ## <a name="id"></a>Id
-The system generated identifier of the image.
+The system-generated identifier of the image.
 
 **Add:** Optional. You must either leave this field empty, or specify a negative identifier. A negative identifier set for the image can then be referenced in dependent record types such as the [Images](responsive-ad.md#images) field of a [Responsive Ad](responsive-ad.md). This is recommended if you are adding new image and new dependent records in the same Bulk file. For more information, see [Bulk File Schema Reference Keys](../bulk-service/bulk-file-schema.md#referencekeys).  
 **Delete:** Read-only and Required  
@@ -106,7 +106,7 @@ The date and time that the entity was last updated. The value is in Coordinated 
 **Delete:** Read-only  
 
 ## <a name="parentid"></a>Parent Id
-The system generated identifier of the account that contains the image.
+The system-generated identifier of the account that contains the image.
 
 This bulk field maps to the *Id* field of the [Account](account.md) record.
 
