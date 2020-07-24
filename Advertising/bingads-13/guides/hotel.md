@@ -62,7 +62,7 @@ The bulk file includes up to 10 ABW multiplier columns, i.e., *Advance Booking W
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing ABW min day and multiplier, set the corresponding [Advance Booking Window Min Days 1-10](#advancebookingwindowmindays) field to the min day that you want to remove and this multiplier field to "delete_value".      
 
@@ -93,7 +93,7 @@ The bulk file includes up to 7 checkin columns, i.e., *Checkin Monday*, *Checkin
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing checkin bid modifier, set the corresponding field to "delete_value". For example, if you no longer want to modify the base bid on Wednesdays, set the *Checkin Wednesday* field to "delete_value". 
 
@@ -111,7 +111,7 @@ The bulk file includes columns for each country code, e.g., *Country AD*, *Count
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing country bid modifier, set the corresponding field to "delete_value". For example, if you no longer want to modify the base bid for US and DE, set both the *Country US* and *Country DE* fields to "delete_value". 
 
@@ -120,7 +120,7 @@ Adjust the base bid if the user didn't search for hotels using specific dates.
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing default date bid modifier, set this field to "delete_value". 
 
@@ -129,7 +129,7 @@ Adjust the base bid if the user searched for hotels using specific dates.
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing selected date bid modifier, set this field to "delete_value". 
 
@@ -138,7 +138,7 @@ Adjust the base bid if the user is using a desktop device to search for hotels.
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing desktop bid modifier, set this field to "delete_value". 
 
@@ -147,7 +147,7 @@ Adjust the base bid if the user is using a smartphone device to search for hotel
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing smartphone bid modifier, set this field to "delete_value". 
 
@@ -156,7 +156,7 @@ Adjust the base bid if the user is using a tablet device to search for hotels.
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing tablet bid modifier, set this field to "delete_value". 
 
@@ -174,7 +174,7 @@ The column suffix represents the minimum number of nights required to apply the 
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing length of stay bid modifier, set the corresponding field to "delete_value". For example, if you no longer want to modify the base bid for stays of 8 or more nights, set the *Length of Stay 8* field to "delete_value". 
 
@@ -196,7 +196,7 @@ Adjust the base bid if the user is searching for hotels on Bing.com.
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing bid modifier, set this field to "delete_value". 
 
@@ -205,7 +205,7 @@ Adjust the base bid if the user is searching for hotels on Bing.com/maps.
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing bid modifier, set this field to "delete_value". 
 
@@ -214,7 +214,7 @@ Adjust the base bid if the hotel ad is shown in the first results page shown in 
 
 The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
 
-For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $25.
+For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
 **Update:** Optional. To remove an existing bid modifier, set this field to "delete_value". 
 

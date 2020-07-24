@@ -4,7 +4,7 @@ ms.service: bing-ads-campaign-management-service
 ms.topic: article
 author: eric-urban
 ms.author: eur
-description: Applies retract or restate offline conversion adjustments.
+description: Applies offline conversion adjustments.
 dev_langs: 
   - csharp
   - java
@@ -12,7 +12,10 @@ dev_langs:
   - python
 ---
 # ApplyOfflineConversionAdjustments Service Operation - Campaign Management
-Applies retract or restate offline conversion adjustments.  
+Applies offline conversion adjustments.  
+
+> [!NOTE]
+> Support for offline conversion adjustments is coming soon. This preview documentation is subject to change. 
 
 This operation can be used to adjust the conversion time and value for offline conversions previously applied via the [ApplyOfflineConversions](applyofflineconversions.md) operation. 
 
