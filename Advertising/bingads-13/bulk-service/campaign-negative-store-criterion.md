@@ -126,7 +126,7 @@ This bulk field maps to the *Id* field of the [Campaign](campaign.md) record.
 ## <a name="status"></a>Status
 The status of the store criterion.
 
-Possible values are *Active*, *Paused*, or *Deleted*. 
+Possible values are *Active* or *Deleted*. 
 
 **Add:** Optional. The default value is *Active*.  
 **Update:** Not applicable. A negative store can be added and deleted, but cannot be updated.  
