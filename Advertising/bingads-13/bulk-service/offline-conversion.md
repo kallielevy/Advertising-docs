@@ -119,28 +119,16 @@ For more information, see [Currencies](../guides/currencies.md).
 **Retract:** Not applicable  
 
 ## <a name="adjustmenttime"></a>Adjustment Time
-The adjusted conversion date and time.
+The date and time when the adjustment occurred.
 
-The date and time must be within the last 90 days, otherwise the operation will fail when you attempt to send Microsoft Advertising the offline conversion data.
+The adjustment time cannot be earlier than the original offline [conversion date and time](#conversiontime).  
 
 > [!IMPORTANT]
 > The value must be in Coordinated Universal Time (UTC). This differs from the time zone options when you upload offline conversions in the Microsoft Advertising web application. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).
 
-To be counted by Microsoft Advertising as an offline conversion after successful upload, the following additional requirements must be met:
--  The adjustment time cannot be earlier than the original offline [conversion date and time](#conversiontime).  
--  The date and time of the conversion must be set later than the date and time of the recorded click.  
--  The date and time must be within the conversion window. The *ConversionWindowInMinutes* property of the [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) determines the maximum length of time in minutes after a click that conversions will be tracked.
-
-For example if three clicks were recorded on April 30th, if the *ConversionWindowInMinutes* of the [OfflineConversionGoal](../campaign-management-service/offlineconversiongoal.md) is equal to 30 days (43200 minutes), and if you send Microsoft Advertising the following offline conversions on July 31st, then Microsoft Advertising will only count the one with MicrosoftClickId=*2* as an offline conversion.
--  MicrosoftClickId=*1*; ConversionTime=*2020-04-30T17:02:35.6853793Z*  
--  MicrosoftClickId=*2*; ConversionTime=*2020-05-15T17:02:35.6853793Z*  
--  MicrosoftClickId=*3*; ConversionTime=*2020-06-15T17:02:35.6853793Z*
-
-The offline conversion data with MicrosoftClickId=*1* will not be uploaded since the conversion date and time is more than 90 days ago, and the offline conversion data with MicrosoftClickId=*3* will not be counted because it does not fall within the conversion window (April 30 through May 29).
-
 **Add:** Not applicable  
-**Restate:** Optional  
-**Retract:** Not applicable  
+**Restate:** Required  
+**Retract:** Required  
 
 ## <a name="adjustmenttype"></a>Adjustment Type
 Determines whether to retract or restate the offline conversion.
@@ -157,7 +145,7 @@ If this value is "Retract", the offline conversion previously attributed to the 
 The adjusted offline conversion value.
 
 **Add:** Not applicable  
-**Restate:** Required. If you do not specify an adjustment value with the restatement, then the *Value* element of the goal's [ConversionGoalRevenue](../campaign-management-service/conversiongoalrevenue.md) is used.   
+**Restate:** Required     
 **Retract:** Not applicable  
 
 ## <a name="clientid"></a>Client Id
