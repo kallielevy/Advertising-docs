@@ -433,12 +433,12 @@ The `id` attribute is a unique Microsoft Advertising identifier for the asset in
 
 The same image asset identifier can be used multiple times in the same ad for different aspect ratios, and can also be used by multiple ads in the same Microsoft Advertising account. The identifier of image asset with [SubType](#images-subtype) set to LandscapeImageMedia is used for all auto-generated image asset sub types within the same ad. Whether or not you let Microsoft Advertising automatically generate the cropped images, the [Id](#images-id) does not need to be unique among the image assets linked to the same ad.
 
-You can create media for responsive ads via the [AddMedia](../campaign-management-service/addmedia.md) service operation. Then you can use the returned media identifier as the image asset ID. The aspect ratio of the image that you added must be supported for the image asset [subType](#images-subtype).
+You can create images for responsive ads via the [Image](image.md) bulk record. Then you can use the returned media identifier as the image asset ID. The aspect ratio of the image that you added must be supported for the image asset [subType](#images-subtype). 
 
 ### <a name="images-subtype"></a>subType
 The `subType` attribute represents the aspect ratio for this image asset.
 
-The aspect ratio for the sub type must match the effective image asset dimensions. If [cropHeight](#images-cropheight) and [cropWidth](#images-cropwidth) are not used then the aspect ratio for the sub type must match the aspect ratio of the stored image media. If [cropHeight](#images-cropheight) and [cropWidth](#images-cropwidth) are used then the true aspect ratio of the media that is stored in the account level media library can differ, so long as [cropHeight](#images-cropheight) and [cropWidth](#images-cropwidth) result in the correct aspect ratio. In either case the true aspect ratio of the media that is stored in the account level media library will remain unchanged.
+The true aspect ratio of the [Image](image.md) that is stored in the account level media library can vary, so long as the resulting [cropHeight](#images-cropheight) and [cropWidth](#images-cropwidth) result in the expected aspect ratio per sub type. If you do not set the [cropHeight](#images-cropheight) and [cropWidth](#images-cropwidth), the service will automatically crop the image. In any case the true aspect ratio of the media that is stored in the account level media library will remain unchanged. 
 
 The possible sub type values include LandscapeImageMedia, SquareImageMedia, ImageMedia169X100, ImageMedia93X100, ImageMedia15X10, ImageMedia155X100, ImageMedia133X100, ImageMedia178X100, and ImageMedia172X100. New sub types might be added in the future, so you should not take any dependency on a fixed set of values.
 
