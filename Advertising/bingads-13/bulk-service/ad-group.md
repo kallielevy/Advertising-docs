@@ -427,11 +427,13 @@ The date and time that the entity was last updated. The value is in Coordinated 
 ## <a name="networkdistribution"></a>Network Distribution
 The search networks where you want your ads to display.
 
-Possible values are *OwnedAndOperatedAndSyndicatedSearch*, *OwnedAndOperatedOnly*, and *SyndicatedSearchOnly*. The default is *OwnedAndOperatedAndSyndicatedSearch*. For more information about networks and ad distribution, see the [About Ad Distribution](https://help.ads.microsoft.com/#apex/3/en/50871/0) help article.
+Supported network values for ad groups within most campaign types are *OwnedAndOperatedAndSyndicatedSearch*, *OwnedAndOperatedOnly*, and *SyndicatedSearchOnly*. The default is *OwnedAndOperatedAndSyndicatedSearch*. For more information about networks and ad distribution, see the [About Ad Distribution](https://help.ads.microsoft.com/#apex/3/en/50871/0) help article.
 
 For ad groups in Audience campaigns, ad group level network is not supported and this field will be empty. The ad groups are in the Microsoft Audience Network.
 
 For ad groups in [smart shopping campaigns](../guides/smart-shopping-campaigns.md), you cannot set the network. The service will set the network to *OwnedAndOperatedAndSyndicatedSearch*. 
+
+For ad groups in [shopping campaigns for brands](../guides/product-ads.md#setup-cooperative), the *InHousePromotion* network (Retailer Network only) is supported in addition to *OwnedAndOperatedAndSyndicatedSearch*, *OwnedAndOperatedOnly*, and *SyndicatedSearchOnly*.
 
 If you select one of the syndicated search options, you can call the [SetNegativeSitesToAdGroups](../campaign-management-service/setnegativesitestoadgroups.md) or [SetNegativeSitesToCampaigns](../campaign-management-service/setnegativesitestocampaigns.md) operation to prevent the ads from displaying on specific syndicated search websites.
 

@@ -60,7 +60,7 @@ The percentage multiplier used to adjust the base bid for the corresponding [Adv
 
 The bulk file includes up to 10 ABW multiplier columns, i.e., *Advance Booking Window Multiplier 1*, *Advance Booking Window Multiplier 2*, *Advance Booking Window Multiplier 3*, *Advance Booking Window Multiplier 4*, *Advance Booking Window Multiplier 5*, *Advance Booking Window Multiplier 6*, *Advance Booking Window Multiplier 7*, *Advance Booking Window Multiplier 8*, *Advance Booking Window Multiplier 9*, and *Advance Booking Window Multiplier 10*. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -91,7 +91,7 @@ Adjust your bids if the user checks in on one of the specified weekdays.
 
 The bulk file includes up to 7 checkin columns, i.e., *Checkin Monday*, *Checkin Tuesday*, *Checkin Wednesday*, *Checkin Thursday*, *Checkin Friday*, *Checkin Saturday*, and *Checkin Sunday*. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -109,7 +109,7 @@ The multiplier is applied if the user accesses the Bing domain with the correspo
 
 The bulk file includes columns for each country code, e.g., *Country AD*, *Country AE*, *Country AF*, *Country AG*, *Country AI*, *Country AL*, *Country AM*, *Country AN*, *Country AO*, *Country AQ*, *Country AR*, *Country AS*, *Country AT*, *Country AU*, *Country AW*, *Country AZ*, *Country BA*, *Country BB*, *Country BD*, *Country BE*, *Country BF*, *Country BG*, *Country BH*, *Country BI*, *Country BJ*, *Country BM*, *Country BN*, *Country BO*, *Country BR*, *Country BS*, *Country BT*, *Country BW*, *Country BY*, *Country BZ*, *Country CA*, *Country CC*, *Country CD*, *Country CF*, *Country CG*, *Country CH*, *Country CI*, *Country CK*, *Country CL*, *Country CM*, *Country CN*, *Country CO*, *Country CR*, *Country CV*, *Country CX*, *Country CY*, *Country CZ*, *Country DE*, *Country DJ*, *Country DK*, *Country DM*, *Country DO*, *Country DZ*, *Country EC*, *Country EE*, *Country EG*, *Country ER*, *Country ES*, *Country ET*, *Country FI*, *Country FJ*, *Country FK*, *Country FM*, *Country FO*, *Country FR*, *Country GA*, *Country GB*, *Country GD*, *Country GE*, *Country GF*, *Country GH*, *Country GI*, *Country GL*, *Country GM*, *Country GN*, *Country GP*, *Country GQ*, *Country GR*, *Country GT*, *Country GU*, *Country GW*, *Country GY*, *Country HK*, *Country HN*, *Country HR*, *Country HT*, *Country HU*, *Country ID*, *Country IE*, *Country IL*, *Country IN*, *Country IQ*, *Country IS*, *Country IT*, *Country JM*, *Country JO*, *Country JP*, *Country KE*, *Country KG*, *Country KH*, *Country KI*, *Country KM*, *Country KN*, *Country KR*, *Country KW*, *Country KY*, *Country KZ*, *Country LA*, *Country LB*, *Country LC*, *Country LI*, *Country LK*, *Country LR*, *Country LS*, *Country LT*, *Country LU*, *Country LV*, *Country LY*, *Country MA*, *Country MC*, *Country MD*, *Country ME*, *Country MG*, *Country MH*, *Country MK*, *Country ML*, *Country MM*, *Country MN*, *Country MO*, *Country MP*, *Country MQ*, *Country MR*, *Country MS*, *Country MT*, *Country MU*, *Country MV*, *Country MW*, *Country MX*, *Country MY*, *Country MZ*, *Country NA*, *Country NC*, *Country NE*, *Country NF*, *Country NG*, *Country NI*, *Country NL*, *Country NO*, *Country NP*, *Country NR*, *Country NU*, *Country NZ*, *Country OM*, *Country PA*, *Country PE*, *Country PF*, *Country PG*, *Country PH*, *Country PK*, *Country PL*, *Country PM*, *Country PN*, *Country PR*, *Country PS*, *Country PT*, *Country PW*, *Country PY*, *Country QA*, *Country RE*, *Country RO*, *Country RS*, *Country RU*, *Country RW*, *Country SA*, *Country SB*, *Country SC*, *Country SE*, *Country SG*, *Country SH*, *Country SI*, *Country SK*, *Country SL*, *Country SM*, *Country SN*, *Country SO*, *Country SR*, *Country ST*, *Country SV*, *Country SZ*, *Country TC*, *Country TD*, *Country TG*, *Country TH*, *Country TJ*, *Country TK*, *Country TL*, *Country TM*, *Country TN*, *Country TO*, *Country TR*, *Country TT*, *Country TV*, *Country TW*, *Country TZ*, *Country UA*, *Country UG*, *Country US*, *Country UY*, *Country UZ*, *Country VA*, *Country VC*, *Country VE*, *Country VG*, *Country VI*, *Country VN*, *Country VU*, *Country WF*, *Country WS*, *Country YE*, *Country YT*, *Country ZA*, *Country ZM*, and *Country ZW*. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -118,7 +118,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 ## <a name="datetypedefault"></a>DateType Default
 Adjust the base bid if the user didn't search for hotels using specific dates. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -127,7 +127,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 ## <a name="datetypeselected"></a>DateType Selected
 Adjust the base bid if the user searched for hotels using specific dates. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -136,7 +136,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 ## <a name="devicedesktop"></a>Device Desktop
 Adjust the base bid if the user is using a desktop device to search for hotels. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -145,7 +145,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 ## <a name="devicemobile"></a>Device Mobile
 Adjust the base bid if the user is using a smartphone device to search for hotels. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -154,7 +154,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 ## <a name="devicetablet"></a>Device Tablet
 Adjust the base bid if the user is using a tablet device to search for hotels. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -172,7 +172,7 @@ The bulk file includes up to 14 length of stay multiplier columns, i.e., *Length
 
 The column suffix represents the minimum number of nights required to apply the multiplier. The multiplier is applied if the user is staying the specified number of nights or longer, up to the next highest length of stay multiplier, if one is set. For example, if *Length of Stay 1* is set to 1.10 and *Length of Stay 1* is set to 1.20, the 10 percent multiplier is applied for stays from 1-7 nights, and the 20 percent multiplier is applied for stays of 8 or more nights. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -196,7 +196,7 @@ A subaccount defines the top-level hotel ads grouping. You can think of this log
 ## <a name="sitelocaluniversal"></a>Site LocalUniversal
 Adjust the base bid if the user is searching for hotels on Bing.com. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -205,7 +205,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 ## <a name="sitemapresults"></a>Site MapResults
 Adjust the base bid if the user is searching for hotels on Bing.com/maps. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
@@ -214,7 +214,7 @@ For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is
 ## <a name="sitepropertypromotionad"></a>Site PropertyPromotionAd
 Adjust the base bid if the hotel ad is shown in the first results page shown in the maps search. 
 
-The valid range for this field is 0.00 through 11.00. Values greater than 0.00 and less than 1.00 will decrease the base bid. Values greater than 1.00 will increase the base bid. Set this field to 1.00 if you do not want to adjust the base bid. 
+The valid range for this field is 0.00 through 11.00. Values less than 1.00 will decrease the base bid by up to 100% (0.00). Values greater than 1.00 will increase the base bid up to 1,000% (11.00). Set this field to 1.00 if you do not want to adjust the base bid. 
 
 For example, if the fixed bid is $5 and the multiplier is 1.05, the final bid is $5.25. Using the same multiplier, if the percentage bid is 5% and the total room rate is $100, the final bid is $5.25.
 
